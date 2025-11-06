@@ -16,7 +16,7 @@
     "antlr4",
     "parser"
   ],
-  "author": "",
+  "author": "Vincent Bruijn <vebruijn@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "antlr4": "^4.13.2"
