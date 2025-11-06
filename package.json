@@ -1,0 +1,30 @@
+{
+  "name": "weilang",
+  "version": "0.1.0",
+  "description": "Weilang: A Lawrence Weiner-inspired esoteric programming language",
+  "type": "module",
+  "main": "./src/parser/index.js",
+  "scripts": {
+    "generate-parser": "antlr-ng -o ./src/parser -Dlanguage=JavaScript -Dmodule=esm ./grammar/Weilang.g4",
+    "build": "npm run generate-parser",
+    "clean": "rm -rf ./src/parser"
+  },
+  "keywords": [
+    "weilang",
+    "lawrence-weiner",
+    "esoteric-language",
+    "antlr4",
+    "parser"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "antlr4": "^4.13.2"
+  },
+  "devDependencies": {
+    "antlr-ng": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
