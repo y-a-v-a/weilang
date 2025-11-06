@@ -38,6 +38,12 @@ temporalMarker
     | 'NOT YET BUT SOON'              // Near future
     | 'ALWAYS ALREADY'                // Eternal present
     | 'WHEN PRESSURE APPLIED'         // Conditional temporal
+    | 'FOREVER & A DAY'               // Infinite duration
+    | 'AS LONG AS IT LASTS'           // Duration-dependent
+    | 'IN DUE COURSE'                 // Eventually/eventually
+    | 'AT THE SAME MOMENT'            // Simultaneous
+    | 'IN THE COURSE OF EVENTS'       // During natural progression
+    | 'AFTER HERE & THERE'            // Post-spatial
     ;
 
 // The receiver decides: modality of execution
@@ -47,6 +53,12 @@ intentionalityModifier
     | 'IF AND WHEN RECEIVED AS'       // Runtime-dependent
     | 'AS IF TO BE'                   // Speculative/hypothetical
     | 'TO BE WITNESSED AS'            // Must be observed (side effect)
+    | 'PER SE'                        // Intrinsically/essentially
+    | 'WITH INTENT'                   // Deliberate/purposeful
+    | 'WITH MALICE AFORETHOUGHT'      // Pre-planned (legal term)
+    | 'IN ALL INNOCENCE'              // Unintentional/naive
+    | 'BE THAT AS IT MAY'             // Regardless/nevertheless
+    | 'WITH MUCH ADO'                 // Ceremoniously/emphatically
     ;
 
 coreStatement
@@ -74,6 +86,12 @@ materialQuality
     | 'OF GLASS'          // Transparent/debuggable
     | 'OF ASH'            // Write-once
     | 'OF PAPER'          // Mutable/fragile
+    | 'OF SALT'           // Preservative/essential
+    | 'OF LIMESTONE'      // Sedimentary/accumulated
+    | 'OF SANDSTONE'      // Grainy/textured
+    | 'OF WOOD'           // Natural/organic
+    | 'OF IRON'           // Strong but oxidizable
+    | 'OF GOLD'           // Precious/valuable
     | 'POLISHED'          // Optimized
     | 'WEATHERED'         // Decays over time
     | 'SCATTERED'         // Distributed/parallel
@@ -102,6 +120,10 @@ condition
     | expression 'IN DIRECT LINE WITH' expression     // Aligned/equal
     | expression 'ADJACENT TO' expression             // Close enough (fuzzy)
     | 'WHEN PRESSURE APPLIED TO' expression           // Force evaluation
+    | expression 'BESIDE ITSELF'                      // Self-contradictory/unstable
+    | expression 'IN TANDEM WITH' expression          // Synchronized/paired
+    | expression 'IN PLAIN SIGHT'                     // Visible/obvious
+    | expression 'WITHIN A REALM OF DISTANCE'         // Spatially remote
     ;
 
 loop
@@ -132,6 +154,12 @@ observerAction
     : 'PRESENTED AS' expression 'TO THE RECEIVER'     // Output
     | 'HOLD IN MIND' IDENTIFIER                       // Mark for inspection
     | 'NOTED BUT NOT SHOWN' expression                // Silent computation
+    | 'TO SEE & BE SEEN' expression                   // Mutual observation
+    | expression 'PLACED ON VIEW'                     // Make visible
+    | expression 'REMOVED FROM VIEW'                  // Make hidden
+    | expression 'OUT OF SIGHT'                       // Concealed
+    | 'LO & BEHOLD' expression                        // Revelation/display
+    | 'AS FAR AS THE EYE CAN SEE' expression          // Observable scope
     ;
 
 // Comments as poetic inscriptions (not ignored!)
@@ -149,10 +177,25 @@ expression
     | IDENTIFIER
     | spatialExpression
     | gesturalExpression
+    | quantifier expression                                // Quantified amount
     | expression operator expression
     | 'WHAT REMAINS AFTER' expression operator expression  // Result of operation
     | 'THE LACK OF' expression                             // Negation/absence
     | '(' expression ')'
+    ;
+
+// Quantification (Weiner's vague measurements)
+quantifier
+    : 'ENOUGH'
+    | 'NOT ENOUGH'
+    | 'TOO MUCH'
+    | 'A BIT OF'
+    | 'A LITTLE BIT MORE'
+    | 'MORE OR LESS'
+    | 'GIVE OR TAKE'
+    | 'SUFFICIENT'
+    | 'MANY'
+    | 'SOME'
     ;
 
 // Spatial/material operations (Weiner's physical dimension)
@@ -162,6 +205,14 @@ spatialExpression
     | expression 'ADJACENT TO' expression                  // Proximity
     | expression 'REMOVED TO THE LATHING OF' expression    // Depth/extraction
     | 'A' NUMBER 'x' NUMBER 'REMOVAL FROM' expression      // Dimensional operation
+    | expression 'ON TOP OF' expression                    // Above/over
+    | expression 'BENEATH' expression                      // Below/under
+    | expression 'ABOVE' expression                        // Higher than
+    | expression 'AROUND' expression                       // Surrounding
+    | expression 'RIGHT IN THE MIDDLE OF' expression       // Centered within
+    | expression 'AT THE LEVEL OF' expression              // At same height/plane
+    | expression 'WITHIN A REALM OF' expression            // Contained conceptually
+    | expression 'TWIXT' expression                        // Between (archaic)
     ;
 
 // Gestural/prepositional operators
@@ -173,6 +224,22 @@ gesturalExpression
     | expression 'BROKEN AWAY FROM' expression             // Subtract/split
     | expression 'CRUSHED BETWEEN' expression              // Constrain/clamp
     | expression 'TOSSED FROM ONE TO ANOTHER'              // Transfer/move
+    | expression 'STREWN ACROSS' expression                // Distributed randomly
+    | expression 'DISPERSED ACROSS' expression             // Spread out
+    | expression 'SUSPENDED FROM' expression               // Hanging/deferred
+    | expression 'BOLTED TO' expression                    // Fixed attachment
+    | expression 'WELDED TO' expression                    // Fused permanently
+    | expression 'FOLDED INTO' expression                  // Nested/incorporated
+    | expression 'WRAPPED AROUND' expression               // Enclosed/surrounded
+    | expression 'KEPT APART FROM' expression              // Separated/isolated
+    | expression 'LEFT AS IS'                              // Unchanged/identity
+    | expression 'SPLIT FROM' expression                   // Divided/separated
+    | expression 'RENT FROM' expression                    // Torn from
+    | expression 'SEVERED FROM' expression                 // Cut from
+    | expression 'STACKED UPON' expression                 // Piled on
+    | expression 'LAID UPON' expression                    // Placed flat on
+    | expression 'KNEADED WITH' expression                 // Mixed/combined
+    | expression 'FLOATED UPON' expression                 // Resting on surface
     ;
 
 operator
@@ -188,6 +255,10 @@ operator
     | 'WITH OR WITHOUT'                                    // OR
     | 'WITHOUT'                                            // NOT
     | 'PUT TOGETHER TO PRESENT A SEMBLANCE OF A WHOLE'     // String concat
+    | 'AND/OR'                                             // Ambiguous conjunction (XOR or inclusive OR)
+    | '&'                                                  // Ampersand conjunction
+    | 'TWIXT'                                              // Between (can be operator too)
+    | '±'                                                  // Plus-minus (uncertainty/approximation)
     ;
 
 literal
