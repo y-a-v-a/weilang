@@ -45,13 +45,43 @@ Main entry point that ties everything together.
 
 ## Usage
 
-### Running All Tests
+### Using npm Scripts (Recommended)
+
+The easiest way to run tests is using the npm scripts defined in `package.json`:
+
+```bash
+# Run all tests
+npm test
+
+# Run with verbose output
+npm run test:verbose
+
+# Show help
+npm run test:help
+
+# Run tests by category
+npm run test:lexer
+npm run test:assignment
+npm run test:conditional
+npm run test:expression
+npm run test:function
+npm run test:loop
+npm run test:operator
+npm run test:literal
+npm run test:complex
+```
+
+### Direct Node.js Usage
+
+You can also run the test suite directly:
+
+#### Running All Tests
 
 ```bash
 node tests/test-suite.cjs
 ```
 
-### Running Tests by Category
+#### Running Tests by Category
 
 ```bash
 node tests/test-suite.cjs --category=lexer
@@ -59,21 +89,21 @@ node tests/test-suite.cjs --category=assignment
 node tests/test-suite.cjs --category=conditional
 ```
 
-### Running Tests with Pattern Filter
+#### Running Tests with Pattern Filter
 
 ```bash
 node tests/test-suite.cjs --filter=assignment
 node tests/test-suite.cjs --filter=loop
 ```
 
-### Verbose Output
+#### Verbose Output
 
 ```bash
 node tests/test-suite.cjs --verbose
 node tests/test-suite.cjs --category=lexer --verbose
 ```
 
-### Getting Help
+#### Getting Help
 
 ```bash
 node tests/test-suite.cjs --help
