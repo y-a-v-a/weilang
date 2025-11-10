@@ -1,9 +1,9 @@
-MESSAGE PLACED AS "Hello, World!".
-EMPTY PLACED AS "".
-WITH_SPACES PLACED AS "A string with spaces".
-WITH_NUMBERS PLACED AS "String with 123 numbers".
-WITH_PUNCTUATION PLACED AS "String! With? Punctuation.".
-WITH_SYMBOLS PLACED AS "Symbols: @#$%^&*()".
-SINGLE_WORD PLACED AS "SINGLE".
-MULTIWORD PLACED AS "THE WORK NEED NOT BE BUILT".
-QUOTED_PHRASE PLACED AS "Each being equal and consistent with the intent".
+|MESSAGE| PLACED AS "Hello, World!".
+|EMPTY| PLACED AS "".
+|WITH_SPACES| PLACED AS "A string with spaces".
+|WITH_NUMBERS| PLACED AS "String with 123 numbers".
+|WITH_PUNCTUATION| PLACED AS "String! With? Punctuation.".
+|WITH_SYMBOLS| PLACED AS "Symbols: @#$%^&*()".
+|SINGLE_WORD| PLACED AS "SINGLE".
+|MULTIWORD| PLACED AS "THE WORK NEED NOT BE BUILT".
+|QUOTED_PHRASE| PLACED AS "Each being equal and consistent with the intent".

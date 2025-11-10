@@ -1,4 +1,4 @@
 DESCRIBED AS "Metadata about this section".
-DATA PLACED AS 42.
+|DATA| PLACED AS 42.
 DESCRIBED AS "More metadata for context".
-FINAL PLACED AS DATA OVER AND OVER 2.
+|FINAL| PLACED AS |DATA| OVER AND OVER 2.
