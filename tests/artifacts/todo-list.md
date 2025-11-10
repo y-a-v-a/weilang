@@ -12,10 +12,10 @@ but in fact the artist is called Lawerence Weiner, hence using his initials will
 - [x] Test whitespace handling
 
 ## Punctuation Tests
-- [ ] Test neutral/declarative punctuation (.)
-- [ ] Test imperative punctuation (!)
-- [ ] Test uncertain punctuation (?)
-- [ ] Test statement without punctuation
+- [x] Test neutral/declarative punctuation (.)
+- [x] Test imperative punctuation (!)
+- [x] Test uncertain punctuation (?)
+- [x] Test statement without punctuation
 
 ## Temporal Marker Tests
 - [ ] Test 'IN THE STILL OF THE NIGHT' (past continuous)
