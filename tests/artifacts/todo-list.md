@@ -6,10 +6,10 @@ but in fact the artist is called Lawerence Weiner, hence using his initials will
 # Main todo list for artifacts
 
 ## Basic Lexer Tests
-- [ ] Test IDENTIFIER tokens (uppercase with numbers and underscores)
-- [ ] Test NUMBER tokens (integers and decimals)
-- [ ] Test STRING tokens (double-quoted strings)
-- [ ] Test whitespace handling
+- [x] Test IDENTIFIER tokens (uppercase with numbers and underscores)
+- [x] Test NUMBER tokens (integers and decimals)
+- [x] Test STRING tokens (double-quoted strings)
+- [x] Test whitespace handling
 
 ## Punctuation Tests
 - [ ] Test neutral/declarative punctuation (.)
