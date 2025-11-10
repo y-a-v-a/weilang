@@ -7,7 +7,19 @@
   "scripts": {
     "generate-parser": "antlr-ng -o ./src/parser -Dlanguage=JavaScript -Dmodule=esm ./grammar/Weilang.g4",
     "build": "npm run generate-parser",
-    "clean": "rm -rf ./src/parser"
+    "clean": "rm -rf ./src/parser",
+    "test": "node tests/test-suite.cjs",
+    "test:verbose": "node tests/test-suite.cjs --verbose",
+    "test:help": "node tests/test-suite.cjs --help",
+    "test:lexer": "node tests/test-suite.cjs --category=lexer",
+    "test:assignment": "node tests/test-suite.cjs --category=assignment",
+    "test:conditional": "node tests/test-suite.cjs --category=conditional",
+    "test:expression": "node tests/test-suite.cjs --category=expression",
+    "test:function": "node tests/test-suite.cjs --category=function",
+    "test:loop": "node tests/test-suite.cjs --category=loop",
+    "test:operator": "node tests/test-suite.cjs --category=operator",
+    "test:literal": "node tests/test-suite.cjs --category=literal",
+    "test:complex": "node tests/test-suite.cjs --category=complex"
   },
   "keywords": [
     "weilang",
