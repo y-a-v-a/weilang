@@ -3,4 +3,6 @@
 An esoteric programming language inspired by the textual works of Lawrence Weiner built by a human and AI.
 I always viewed Lawrence Weiner's work as that some state is described. Computer programming is very much about state too. The textual expressiveness of Weiner's work reminds me of computer programming languages. This together led me to the idea to adapt his use of text to describe state into a programming language. This is what is called an esoteric programming language as it does not necessarily is effective but is potentially usable. My goal was to design a programming language that is as poetic as Weiner's work but is also capable of handling or processing a state flow. To take this further, I designed the language to be playful with core concepts of "regular" programming languages: why should a computer program be deterministic? We would it not have multiple states at once? Why wouldn't it be possible that adding a syntactual element to the computer program affect the determinism of the program in a potentially unexpected way? This leads to a total esoteric, poetic programming language in which the program, its inner state and the outcome all are poetic in nature.
 
+Weilang file extension is `.lw`
+
 Vincent Bruijn • y-a-v-a.org • 2025
