@@ -18,216 +18,216 @@ but in fact the artist is called Lawerence Weiner, hence using his initials will
 - [x] Test statement without punctuation
 
 ## Temporal Marker Tests
-- [ ] Test 'IN THE STILL OF THE NIGHT' (past continuous)
-- [ ] Test 'AS IT WAS' (simple past)
-- [ ] Test 'AS IT WILL BE' (future)
-- [ ] Test 'ONCE & AGAIN' (iterative past)
-- [ ] Test 'NOT YET BUT SOON' (near future)
-- [ ] Test 'ALWAYS ALREADY' (eternal present)
-- [ ] Test 'WHEN PRESSURE APPLIED' (conditional temporal)
-- [ ] Test 'FOREVER & A DAY' (infinite duration)
-- [ ] Test 'AS LONG AS IT LASTS' (duration-dependent)
-- [ ] Test 'IN DUE COURSE' (eventually)
-- [ ] Test 'AT THE SAME MOMENT' (simultaneous)
-- [ ] Test 'IN THE COURSE OF EVENTS' (natural progression)
-- [ ] Test 'AFTER HERE & THERE' (post-spatial)
+- [x] Test 'IN THE STILL OF THE NIGHT' (past continuous)
+- [x] Test 'AS IT WAS' (simple past)
+- [x] Test 'AS IT WILL BE' (future)
+- [x] Test 'ONCE & AGAIN' (iterative past)
+- [x] Test 'NOT YET BUT SOON' (near future)
+- [x] Test 'ALWAYS ALREADY' (eternal present)
+- [x] Test 'WHEN PRESSURE APPLIED' (conditional temporal)
+- [x] Test 'FOREVER & A DAY' (infinite duration)
+- [x] Test 'AS LONG AS IT LASTS' (duration-dependent)
+- [x] Test 'IN DUE COURSE' (eventually)
+- [x] Test 'AT THE SAME MOMENT' (simultaneous)
+- [x] Test 'IN THE COURSE OF EVENTS' (natural progression)
+- [x] Test 'AFTER HERE & THERE' (post-spatial)
 
 ## Intentionality Modifier Tests
-- [ ] Test 'MAY BE CONSTRUCTED AS' (optional execution)
-- [ ] Test 'NEED NOT BE BUILT AS' (interpreter decides)
-- [ ] Test 'IF AND WHEN RECEIVED AS' (runtime-dependent)
-- [ ] Test 'AS IF TO BE' (speculative/hypothetical)
-- [ ] Test 'TO BE WITNESSED AS' (must be observed)
-- [ ] Test 'PER SE' (intrinsically)
-- [ ] Test 'WITH INTENT' (deliberate)
-- [ ] Test 'WITH MALICE AFORETHOUGHT' (pre-planned)
-- [ ] Test 'IN ALL INNOCENCE' (unintentional)
-- [ ] Test 'BE THAT AS IT MAY' (regardless)
-- [ ] Test 'WITH MUCH ADO' (ceremoniously)
+- [x] Test 'MAY BE CONSTRUCTED AS' (optional execution)
+- [x] Test 'NEED NOT BE BUILT AS' (interpreter decides)
+- [x] Test 'IF AND WHEN RECEIVED AS' (runtime-dependent)
+- [x] Test 'AS IF TO BE' (speculative/hypothetical)
+- [x] Test 'TO BE WITNESSED AS' (must be observed)
+- [x] Test 'PER SE' (intrinsically)
+- [x] Test 'WITH INTENT' (deliberate)
+- [x] Test 'WITH MALICE AFORETHOUGHT' (pre-planned)
+- [x] Test 'IN ALL INNOCENCE' (unintentional)
+- [x] Test 'BE THAT AS IT MAY' (regardless)
+- [x] Test 'WITH MUCH ADO' (ceremoniously)
 
 ## Assignment Tests
-- [ ] Test basic assignment without material qualities
-- [ ] Test assignment with single material quality
-- [ ] Test assignment with multiple material qualities
-- [ ] Test 'OF STONE' (immutable)
-- [ ] Test 'OF WATER' (volatile)
-- [ ] Test 'OF STEEL' (strong-typed)
-- [ ] Test 'OF GLASS' (transparent/debuggable)
-- [ ] Test 'OF ASH' (write-once)
-- [ ] Test 'OF PAPER' (mutable)
-- [ ] Test 'OF SALT' (preservative)
-- [ ] Test 'OF LIMESTONE' (accumulated)
-- [ ] Test 'OF SANDSTONE' (grainy)
-- [ ] Test 'OF WOOD' (natural)
-- [ ] Test 'OF IRON' (oxidizable)
-- [ ] Test 'OF GOLD' (precious)
-- [ ] Test 'POLISHED' (optimized)
-- [ ] Test 'WEATHERED' (decays over time)
-- [ ] Test 'SCATTERED' (distributed/parallel)
-- [ ] Test 'COMPRESSED' (memory-optimized)
+- [x] Test basic assignment without material qualities
+- [x] Test assignment with single material quality
+- [x] Test assignment with multiple material qualities
+- [x] Test 'OF STONE' (immutable)
+- [x] Test 'OF WATER' (volatile)
+- [x] Test 'OF STEEL' (strong-typed)
+- [x] Test 'OF GLASS' (transparent/debuggable)
+- [x] Test 'OF ASH' (write-once)
+- [x] Test 'OF PAPER' (mutable)
+- [x] Test 'OF SALT' (preservative)
+- [x] Test 'OF LIMESTONE' (accumulated)
+- [x] Test 'OF SANDSTONE' (grainy)
+- [x] Test 'OF WOOD' (natural)
+- [x] Test 'OF IRON' (oxidizable)
+- [x] Test 'OF GOLD' (precious)
+- [x] Test 'POLISHED' (optimized)
+- [x] Test 'WEATHERED' (decays over time)
+- [x] Test 'SCATTERED' (distributed/parallel)
+- [x] Test 'COMPRESSED' (memory-optimized)
 
 ## Removal Tests
-- [ ] Test 'REMOVE <ID> FROM THAT WHICH IS'
-- [ ] Test 'UN-PLACED AS' with expression
-- [ ] Test 'ABSENCE OF <ID> NOTED'
-- [ ] Test 'THE REMOVAL TO THE LATHING OF <ID>'
+- [x] Test 'REMOVE <ID> FROM THAT WHICH IS'
+- [x] Test 'UN-PLACED AS' with expression
+- [x] Test 'ABSENCE OF <ID> NOTED'
+- [x] Test 'THE REMOVAL TO THE LATHING OF <ID>'
 
 ## Conditional Tests
-- [ ] Test basic 'IF AS IF' with 'END AS IS'
-- [ ] Test 'IF AS IF' with 'OTHERWISE AS IS' clause
-- [ ] Test nested conditionals
-- [ ] Test condition: expression only
-- [ ] Test condition: 'EXCEEDS ALL MEASURE'
-- [ ] Test condition: 'DIMINISHED TO NOTHING'
-- [ ] Test condition: 'REMAINS AS SUCH'
-- [ ] Test condition: 'TRANSFORMED BY PASSAGE'
-- [ ] Test condition: 'IN DIRECT LINE WITH'
-- [ ] Test condition: 'ADJACENT TO'
-- [ ] Test condition: 'WHEN PRESSURE APPLIED TO'
-- [ ] Test condition: 'BESIDE ITSELF'
-- [ ] Test condition: 'IN TANDEM WITH'
-- [ ] Test condition: 'IN PLAIN SIGHT'
-- [ ] Test condition: 'WITHIN A REALM OF DISTANCE'
+- [x] Test basic 'IF AS IF' with 'END AS IS'
+- [x] Test 'IF AS IF' with 'OTHERWISE AS IS' clause
+- [x] Test nested conditionals
+- [x] Test condition: expression only
+- [x] Test condition: 'EXCEEDS ALL MEASURE'
+- [x] Test condition: 'DIMINISHED TO NOTHING'
+- [x] Test condition: 'REMAINS AS SUCH'
+- [x] Test condition: 'TRANSFORMED BY PASSAGE'
+- [x] Test condition: 'IN DIRECT LINE WITH'
+- [x] Test condition: 'ADJACENT TO'
+- [x] Test condition: 'WHEN PRESSURE APPLIED TO'
+- [x] Test condition: 'BESIDE ITSELF'
+- [x] Test condition: 'IN TANDEM WITH'
+- [x] Test condition: 'IN PLAIN SIGHT'
+- [x] Test condition: 'WITHIN A REALM OF DISTANCE'
 
 ## Loop Tests
-- [ ] Test 'OVER AND OVER' with condition
-- [ ] Test 'UNTIL OTHERWISE' with condition
-- [ ] Test 'ONCE & AGAIN' (for-loop style)
+- [x] Test 'OVER AND OVER' with condition
+- [x] Test 'UNTIL OTHERWISE' with condition
+- [x] Test 'ONCE & AGAIN' (for-loop style)
 
 ## Function Tests
-- [ ] Test function declaration without parameters
-- [ ] Test function declaration with single parameter
-- [ ] Test function declaration with multiple parameters
-- [ ] Test function call without arguments
-- [ ] Test function call with single argument
-- [ ] Test function call with multiple arguments
-- [ ] Test return statement
+- [x] Test function declaration without parameters
+- [x] Test function declaration with single parameter
+- [x] Test function declaration with multiple parameters
+- [x] Test function call without arguments
+- [x] Test function call with single argument
+- [x] Test function call with multiple arguments
+- [x] Test return statement
 
 ## Observer Action Tests
-- [ ] Test 'PRESENTED AS <expr> TO THE RECEIVER' (output)
-- [ ] Test 'HOLD IN MIND' (mark for inspection)
-- [ ] Test 'NOTED BUT NOT SHOWN' (silent computation)
-- [ ] Test 'TO SEE & BE SEEN' (mutual observation)
-- [ ] Test '<expr> PLACED ON VIEW' (make visible)
-- [ ] Test '<expr> REMOVED FROM VIEW' (make hidden)
-- [ ] Test '<expr> OUT OF SIGHT' (concealed)
-- [ ] Test 'LO & BEHOLD' (revelation)
-- [ ] Test 'AS FAR AS THE EYE CAN SEE' (observable scope)
+- [x] Test 'PRESENTED AS <expr> TO THE RECEIVER' (output)
+- [x] Test 'HOLD IN MIND' (mark for inspection)
+- [x] Test 'NOTED BUT NOT SHOWN' (silent computation)
+- [x] Test 'TO SEE & BE SEEN' (mutual observation)
+- [x] Test '<expr> PLACED ON VIEW' (make visible)
+- [x] Test '<expr> REMOVED FROM VIEW' (make hidden)
+- [x] Test '<expr> OUT OF SIGHT' (concealed)
+- [x] Test 'LO & BEHOLD' (revelation)
+- [x] Test 'AS FAR AS THE EYE CAN SEE' (observable scope)
 
 ## Inscription Tests
-- [ ] Test 'IN RELATION TO' (comment)
-- [ ] Test 'DESCRIBED AS' (metadata)
+- [x] Test 'IN RELATION TO' (comment)
+- [x] Test 'DESCRIBED AS' (metadata)
 
 ## Literal Tests
-- [ ] Test integer literal
-- [ ] Test decimal literal
-- [ ] Test string literal
-- [ ] Test 'TRUE AS IS'
-- [ ] Test 'FALSE AS IS'
-- [ ] Test 'NOTHING AS SUCH' (null)
-- [ ] Test empty array literal
-- [ ] Test array literal with single element
-- [ ] Test array literal with multiple elements
+- [x] Test integer literal
+- [x] Test decimal literal
+- [x] Test string literal
+- [x] Test 'TRUE AS IS'
+- [x] Test 'FALSE AS IS'
+- [x] Test 'NOTHING AS SUCH' (null)
+- [x] Test empty array literal
+- [x] Test array literal with single element
+- [x] Test array literal with multiple elements
 
 ## Measurement Unit Tests
-- [ ] Test 'INCHES'
-- [ ] Test 'FEET'
-- [ ] Test 'SQUARE FEET'
-- [ ] Test 'POUNDS'
-- [ ] Test 'DEGREES'
-- [ ] Test 'MOMENTS'
-- [ ] Test 'PIECES'
+- [x] Test 'INCHES'
+- [x] Test 'FEET'
+- [x] Test 'SQUARE FEET'
+- [x] Test 'POUNDS'
+- [x] Test 'DEGREES'
+- [x] Test 'MOMENTS'
+- [x] Test 'PIECES'
 
 ## Quantifier Tests
-- [ ] Test 'ENOUGH'
-- [ ] Test 'NOT ENOUGH'
-- [ ] Test 'TOO MUCH'
-- [ ] Test 'A BIT OF'
-- [ ] Test 'A LITTLE BIT MORE'
-- [ ] Test 'MORE OR LESS'
-- [ ] Test 'GIVE OR TAKE'
-- [ ] Test 'SUFFICIENT'
-- [ ] Test 'MANY'
-- [ ] Test 'SOME'
+- [x] Test 'ENOUGH'
+- [x] Test 'NOT ENOUGH'
+- [x] Test 'TOO MUCH'
+- [x] Test 'A BIT OF'
+- [x] Test 'A LITTLE BIT MORE'
+- [x] Test 'MORE OR LESS'
+- [x] Test 'GIVE OR TAKE'
+- [x] Test 'SUFFICIENT'
+- [x] Test 'MANY'
+- [x] Test 'SOME'
 
 ## Operator Tests
-- [ ] Test 'PUT TOGETHER' (+)
-- [ ] Test 'REMOVED FROM' (-)
-- [ ] Test 'OVER AND OVER' (*)
-- [ ] Test 'SMASHED TO PIECES' (/)
-- [ ] Test 'TO BE DIMINISHED BY' (<)
-- [ ] Test 'TO EXCEED' (>)
-- [ ] Test 'AS IS' (==)
-- [ ] Test 'OTHER THAN' (!=)
-- [ ] Test 'WITH & WITH' (AND)
-- [ ] Test 'WITH OR WITHOUT' (OR)
-- [ ] Test 'WITHOUT' (NOT)
-- [ ] Test 'PUT TOGETHER TO PRESENT A SEMBLANCE OF A WHOLE' (string concat)
-- [ ] Test 'AND/OR' (XOR or inclusive OR)
-- [ ] Test '&' (ampersand conjunction)
-- [ ] Test 'TWIXT' (between)
-- [ ] Test '±' (plus-minus)
+- [x] Test 'PUT TOGETHER' (+)
+- [x] Test 'REMOVED FROM' (-)
+- [x] Test 'OVER AND OVER' (*)
+- [x] Test 'SMASHED TO PIECES' (/)
+- [x] Test 'TO BE DIMINISHED BY' (<)
+- [x] Test 'TO EXCEED' (>)
+- [x] Test 'AS IS' (==)
+- [x] Test 'OTHER THAN' (!=)
+- [x] Test 'WITH & WITH' (AND)
+- [x] Test 'WITH OR WITHOUT' (OR)
+- [x] Test 'WITHOUT' (NOT)
+- [x] Test 'PUT TOGETHER TO PRESENT A SEMBLANCE OF A WHOLE' (string concat)
+- [x] Test 'AND/OR' (XOR or inclusive OR)
+- [x] Test '&' (ampersand conjunction)
+- [x] Test 'TWIXT' (between)
+- [x] Test '±' (plus-minus)
 
 ## Expression Tests - Basic
-- [ ] Test identifier expression
-- [ ] Test parenthesized expression
-- [ ] Test 'THE LACK OF' (prefix negation)
-- [ ] Test 'WHAT REMAINS AFTER' (ternary operation)
-- [ ] Test 'A <N> x <N> REMOVAL FROM' (dimensional operation)
+- [x] Test identifier expression
+- [x] Test parenthesized expression
+- [x] Test 'THE LACK OF' (prefix negation)
+- [x] Test 'WHAT REMAINS AFTER' (ternary operation)
+- [x] Test 'A <N> x <N> REMOVAL FROM' (dimensional operation)
 
 ## Expression Tests - Spatial/Material Operations
-- [ ] Test 'PLACED UPON' (layering)
-- [ ] Test 'IN DIRECT LINE WITH' (alignment)
-- [ ] Test 'ADJACENT TO' (proximity)
-- [ ] Test 'REMOVED TO THE LATHING OF' (depth/extraction)
-- [ ] Test 'ON TOP OF' (above/over)
-- [ ] Test 'BENEATH' (below/under)
-- [ ] Test 'ABOVE' (higher than)
-- [ ] Test 'AROUND' (surrounding)
-- [ ] Test 'RIGHT IN THE MIDDLE OF' (centered within)
-- [ ] Test 'AT THE LEVEL OF' (same height/plane)
-- [ ] Test 'WITHIN A REALM OF' (contained conceptually)
-- [ ] Test 'TWIXT' in expression context (between)
+- [x] Test 'PLACED UPON' (layering)
+- [x] Test 'IN DIRECT LINE WITH' (alignment)
+- [x] Test 'ADJACENT TO' (proximity)
+- [x] Test 'REMOVED TO THE LATHING OF' (depth/extraction)
+- [x] Test 'ON TOP OF' (above/over)
+- [x] Test 'BENEATH' (below/under)
+- [x] Test 'ABOVE' (higher than)
+- [x] Test 'AROUND' (surrounding)
+- [x] Test 'RIGHT IN THE MIDDLE OF' (centered within)
+- [x] Test 'AT THE LEVEL OF' (same height/plane)
+- [x] Test 'WITHIN A REALM OF' (contained conceptually)
+- [x] Test 'TWIXT' in expression context (between)
 
 ## Expression Tests - Gestural/Prepositional Operations
-- [ ] Test 'THROWN FROM <expr> TO <expr>' (range operation)
-- [ ] Test 'SCATTERED ACROSS' (map/distribute)
-- [ ] Test 'GATHERED INTO' (reduce/collect)
-- [ ] Test 'PRESSED AGAINST' (concatenate)
-- [ ] Test 'BROKEN AWAY FROM' (subtract/split)
-- [ ] Test 'CRUSHED BETWEEN' (constrain/clamp)
-- [ ] Test 'TOSSED FROM ONE TO ANOTHER' (transfer/move)
-- [ ] Test 'STREWN ACROSS' (distributed randomly)
-- [ ] Test 'DISPERSED ACROSS' (spread out)
-- [ ] Test 'SUSPENDED FROM' (hanging/deferred)
-- [ ] Test 'BOLTED TO' (fixed attachment)
-- [ ] Test 'WELDED TO' (fused permanently)
-- [ ] Test 'FOLDED INTO' (nested/incorporated)
-- [ ] Test 'WRAPPED AROUND' (enclosed/surrounded)
-- [ ] Test 'KEPT APART FROM' (separated/isolated)
-- [ ] Test 'LEFT AS IS' (unchanged/identity)
-- [ ] Test 'SPLIT FROM' (divided/separated)
-- [ ] Test 'RENT FROM' (torn from)
-- [ ] Test 'SEVERED FROM' (cut from)
-- [ ] Test 'STACKED UPON' (piled on)
-- [ ] Test 'LAID UPON' (placed flat on)
-- [ ] Test 'KNEADED WITH' (mixed/combined)
-- [ ] Test 'FLOATED UPON' (resting on surface)
+- [x] Test 'THROWN FROM <expr> TO <expr>' (range operation)
+- [x] Test 'SCATTERED ACROSS' (map/distribute)
+- [x] Test 'GATHERED INTO' (reduce/collect)
+- [x] Test 'PRESSED AGAINST' (concatenate)
+- [x] Test 'BROKEN AWAY FROM' (subtract/split)
+- [x] Test 'CRUSHED BETWEEN' (constrain/clamp)
+- [x] Test 'TOSSED FROM ONE TO ANOTHER' (transfer/move)
+- [x] Test 'STREWN ACROSS' (distributed randomly)
+- [x] Test 'DISPERSED ACROSS' (spread out)
+- [x] Test 'SUSPENDED FROM' (hanging/deferred)
+- [x] Test 'BOLTED TO' (fixed attachment)
+- [x] Test 'WELDED TO' (fused permanently)
+- [x] Test 'FOLDED INTO' (nested/incorporated)
+- [x] Test 'WRAPPED AROUND' (enclosed/surrounded)
+- [x] Test 'KEPT APART FROM' (separated/isolated)
+- [x] Test 'LEFT AS IS' (unchanged/identity)
+- [x] Test 'SPLIT FROM' (divided/separated)
+- [x] Test 'RENT FROM' (torn from)
+- [x] Test 'SEVERED FROM' (cut from)
+- [x] Test 'STACKED UPON' (piled on)
+- [x] Test 'LAID UPON' (placed flat on)
+- [x] Test 'KNEADED WITH' (mixed/combined)
+- [x] Test 'FLOATED UPON' (resting on surface)
 
 ## Possibility Tests
-- [ ] Test single statement possibility
-- [ ] Test 'OR NOT' (Schrödinger's code)
-- [ ] Test 'RATHER THAN' (alternative realities)
-- [ ] Test 'EITHER ... END EITHER' with single statement
-- [ ] Test 'EITHER ... END EITHER' with multiple statements
+- [x] Test single statement possibility
+- [x] Test 'OR NOT' (Schrödinger's code)
+- [x] Test 'RATHER THAN' (alternative realities)
+- [x] Test 'EITHER ... END EITHER' with single statement
+- [x] Test 'EITHER ... END EITHER' with multiple statements
 
 ## Complex Integration Tests
-- [ ] Test statement with temporal marker + intentionality modifier + punctuation
-- [ ] Test nested loops
-- [ ] Test function with return statement
-- [ ] Test complex expression precedence
-- [ ] Test array operations with gestural expressions
-- [ ] Test conditional inside loop
-- [ ] Test loop inside function
-- [ ] Test multiple possibilities in a program
-- [ ] Test all example programs from grammar documentation
+- [x] Test statement with temporal marker + intentionality modifier + punctuation
+- [x] Test nested loops
+- [x] Test function with return statement
+- [x] Test complex expression precedence
+- [x] Test array operations with gestural expressions
+- [x] Test conditional inside loop
+- [x] Test loop inside function
+- [x] Test multiple possibilities in a program
+- [x] Test all example programs from grammar documentation
