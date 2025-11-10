@@ -1,5 +1,5 @@
-X PLACED AS 100.
-Y PLACED AS 50.
-IF AS IF X TO EXCEED Y
-    RESULT PLACED AS "X is greater than Y".
+|X| PLACED AS 100.
+|Y| PLACED AS 50.
+IF AS IF X TO |EXCEED| |Y|
+    |RESULT| PLACED AS "X is greater than Y".
 END AS IS

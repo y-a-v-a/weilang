@@ -1,5 +1,5 @@
-A PLACED AS 10.
-B PLACED AS 20.
-IF AS IF A OTHER THAN B
-    RESULT PLACED AS "Values are not equal".
+|A| PLACED AS 10.
+|B| PLACED AS 20.
+IF AS IF A OTHER THAN |B|
+    |RESULT| PLACED AS "Values are not equal".
 END AS IS
