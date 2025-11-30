@@ -5,7 +5,7 @@
   "type": "module",
   "main": "./src/parser/index.js",
   "scripts": {
-    "generate-parser": "antlr-ng -o ./src/parser -Dlanguage=JavaScript -Dmodule=esm ./grammar/Weilang.g4",
+    "generate-parser": "antlr-ng -o ./src/parser -Dlanguage=JavaScript -Dmodule=esm ./grammar/WeilangLexer.g4 ./grammar/WeilangParser.g4",
     "build": "npm run generate-parser",
     "clean": "rm -rf ./src/parser",
     "test": "node tests/test-suite.cjs",
