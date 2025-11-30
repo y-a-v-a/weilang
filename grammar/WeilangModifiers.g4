@@ -6,32 +6,32 @@ parser grammar WeilangModifiers;
 
 // When/how the statement exists in time
 temporalMarker
-    : 'IN THE STILL OF THE NIGHT'    // Past continuous
-    | 'AS IT WAS'                     // Simple past
-    | 'AS IT WILL BE'                 // Future
-    | 'ONCE & AGAIN'                  // Iterative past
-    | 'NOT YET BUT SOON'              // Near future
-    | 'ALWAYS ALREADY'                // Eternal present
-    | 'WHEN PRESSURE APPLIED'         // Conditional temporal
-    | 'FOREVER & A DAY'               // Infinite duration
-    | 'AS LONG AS IT LASTS'           // Duration-dependent
-    | 'IN DUE COURSE'                 // Eventually/eventually
-    | 'AT THE SAME MOMENT'            // Simultaneous
-    | 'IN THE COURSE OF EVENTS'       // During natural progression
-    | 'AFTER HERE & THERE'            // Post-spatial
+    : IN_THE_STILL_OF_THE_NIGHT    // Past continuous
+    | AS_IT_WAS                     // Simple past
+    | AS_IT_WILL_BE                 // Future
+    | ONCE_AND_AGAIN                // Iterative past
+    | NOT_YET_BUT_SOON              // Near future
+    | ALWAYS_ALREADY                // Eternal present
+    | WHEN_PRESSURE_APPLIED         // Conditional temporal
+    | FOREVER_AND_A_DAY             // Infinite duration
+    | AS_LONG_AS_IT_LASTS           // Duration-dependent
+    | IN_DUE_COURSE                 // Eventually/eventually
+    | AT_THE_SAME_MOMENT            // Simultaneous
+    | IN_THE_COURSE_OF_EVENTS       // During natural progression
+    | AFTER_HERE_AND_THERE          // Post-spatial
     ;
 
 // The receiver decides: modality of execution
 intentionalityModifier
-    : 'MAY BE CONSTRUCTED AS'         // Optional execution (prob < 1.0)
-    | 'NEED NOT BE BUILT AS'          // Interpreter decides
-    | 'IF AND WHEN RECEIVED AS'       // Runtime-dependent
-    | 'AS IF TO BE'                   // Speculative/hypothetical
-    | 'TO BE WITNESSED AS'            // Must be observed (side effect)
-    | 'PER SE'                        // Intrinsically/essentially
-    | 'WITH INTENT'                   // Deliberate/purposeful
-    | 'WITH MALICE AFORETHOUGHT'      // Pre-planned (legal term)
-    | 'IN ALL INNOCENCE'              // Unintentional/naive
-    | 'BE THAT AS IT MAY'             // Regardless/nevertheless
-    | 'WITH MUCH ADO'                 // Ceremoniously/emphatically
+    : MAY_BE_CONSTRUCTED_AS         // Optional execution (prob < 1.0)
+    | NEED_NOT_BE_BUILT_AS          // Interpreter decides
+    | IF_AND_WHEN_RECEIVED_AS       // Runtime-dependent
+    | AS_IF_TO_BE                   // Speculative/hypothetical
+    | TO_BE_WITNESSED_AS            // Must be observed (side effect)
+    | PER_SE                        // Intrinsically/essentially
+    | WITH_INTENT                   // Deliberate/purposeful
+    | WITH_MALICE_AFORETHOUGHT      // Pre-planned (legal term)
+    | IN_ALL_INNOCENCE              // Unintentional/naive
+    | BE_THAT_AS_IT_MAY             // Regardless/nevertheless
+    | WITH_MUCH_ADO                 // Ceremoniously/emphatically
     ;

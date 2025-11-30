@@ -18,48 +18,48 @@ coreStatement
 
 // Assignment with material qualities
 assignment
-    : IDENTIFIER materialQuality* 'PLACED AS' expression
+    : IDENTIFIER materialQuality* PLACED_AS expression
     ;
 
 conditional
-    : 'IF AS IF' condition statement+ ('OTHERWISE AS IS' statement+)? 'END AS IS'
+    : IF_AS_IF condition statement+ (OTHERWISE_AS_IS statement+)? END_AS_IS
     ;
 
 // Phenomenological conditions
 condition
     : expression                                      // Standard expression
-    | expression 'EXCEEDS ALL MEASURE'                // > threshold
-    | expression 'DIMINISHED TO NOTHING'              // == 0
-    | expression 'REMAINS AS SUCH'                    // Truthy
-    | expression 'TRANSFORMED BY PASSAGE'             // Changed since last check
-    | expression 'IN DIRECT LINE WITH' expression     // Aligned/equal
-    | expression 'ADJACENT TO' expression             // Close enough (fuzzy)
-    | 'WHEN PRESSURE APPLIED TO' expression           // Force evaluation
-    | expression 'BESIDE ITSELF'                      // Self-contradictory/unstable
-    | expression 'IN TANDEM WITH' expression          // Synchronized/paired
-    | expression 'IN PLAIN SIGHT'                     // Visible/obvious
-    | expression 'WITHIN A REALM OF DISTANCE'         // Spatially remote
+    | expression EXCEEDS_ALL_MEASURE                  // > threshold
+    | expression DIMINISHED_TO_NOTHING                // == 0
+    | expression REMAINS_AS_SUCH                      // Truthy
+    | expression TRANSFORMED_BY_PASSAGE               // Changed since last check
+    | expression IN_DIRECT_LINE_WITH expression       // Aligned/equal
+    | expression ADJACENT_TO expression               // Close enough (fuzzy)
+    | WHEN_PRESSURE_APPLIED_TO expression             // Force evaluation
+    | expression BESIDE_ITSELF                        // Self-contradictory/unstable
+    | expression IN_TANDEM_WITH expression            // Synchronized/paired
+    | expression IN_PLAIN_SIGHT                       // Visible/obvious
+    | expression WITHIN_A_REALM_OF_DISTANCE           // Spatially remote
     ;
 
 loop
-    : 'OVER AND OVER' condition statement+ 'END OVER'
-    | 'UNTIL OTHERWISE' condition statement+ 'END OVER'
-    | 'ONCE & AGAIN' expression statement+ 'END OVER'  // For-loop style
+    : OVER_AND_OVER condition statement+ END_OVER
+    | UNTIL_OTHERWISE condition statement+ END_OVER
+    | ONCE_AND_AGAIN expression statement+ END_OVER  // For-loop style
     ;
 
 functionDecl
-    : 'TO SHOW AND TO TELL' IDENTIFIER ('CALLED FOR' paramList)?
-      statement+ 'END SHOW'
+    : TO_SHOW_AND_TO_TELL IDENTIFIER (CALLED_FOR paramList)?
+      statement+ END_SHOW
     ;
 
 paramList
-    : IDENTIFIER (',' IDENTIFIER)*
+    : IDENTIFIER (COMMA IDENTIFIER)*
     ;
 
 functionCall
-    : IDENTIFIER 'CALLED FOR' (expression (',' expression)*)?
+    : IDENTIFIER CALLED_FOR (expression (COMMA expression)*)?
     ;
 
 returnStmt
-    : 'RETURN PLACED AS' expression
+    : RETURN_PLACED_AS expression
     ;

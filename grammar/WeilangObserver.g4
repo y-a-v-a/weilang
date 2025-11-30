@@ -6,19 +6,19 @@ parser grammar WeilangObserver;
 
 // The viewer/observer participates
 observerAction
-    : 'PRESENTED AS' expression 'TO THE RECEIVER'     // Output
-    | 'HOLD IN MIND' IDENTIFIER                       // Mark for inspection
-    | 'NOTED BUT NOT SHOWN' expression                // Silent computation
-    | 'TO SEE & BE SEEN' expression                   // Mutual observation
-    | expression 'PLACED ON VIEW'                     // Make visible
-    | expression 'REMOVED FROM VIEW'                  // Make hidden
-    | expression 'OUT OF SIGHT'                       // Concealed
-    | 'LO & BEHOLD' expression                        // Revelation/display
-    | 'AS FAR AS THE EYE CAN SEE' expression          // Observable scope
+    : PRESENTED_AS expression TO_THE_RECEIVER     // Output
+    | HOLD_IN_MIND IDENTIFIER                      // Mark for inspection
+    | NOTED_BUT_NOT_SHOWN expression               // Silent computation
+    | TO_SEE_AND_BE_SEEN expression                // Mutual observation
+    | expression PLACED_ON_VIEW                    // Make visible
+    | expression REMOVED_FROM_VIEW                 // Make hidden
+    | expression OUT_OF_SIGHT                      // Concealed
+    | LO_AND_BEHOLD expression                     // Revelation/display
+    | AS_FAR_AS_THE_EYE_CAN_SEE expression         // Observable scope
     ;
 
 // Comments as poetic inscriptions (not ignored!)
 inscription
-    : 'IN RELATION TO' STRING                         // Comment
-    | 'DESCRIBED AS' STRING                           // Metadata
+    : IN_RELATION_TO STRING                         // Comment
+    | DESCRIBED_AS STRING                           // Metadata
     ;

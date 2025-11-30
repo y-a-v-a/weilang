@@ -12,9 +12,9 @@ program
 // Non-deterministic possibilities - the core unit of Weiner-code
 possibility
     : statement
-    | statement 'OR NOT' statement                    // Schrödinger's code
-    | statement 'RATHER THAN' statement               // Alternative realities
-    | 'EITHER' statement+ 'END EITHER'                // One chosen at runtime
+    | statement OR_NOT statement                    // Schrödinger's code
+    | statement RATHER_THAN statement               // Alternative realities
+    | EITHER statement+ END_EITHER                  // One chosen at runtime
     ;
 
 statement
@@ -23,7 +23,7 @@ statement
 
 // Punctuation affects execution semantics
 punctuation
-    : '.'      // Neutral/declarative
-    | '!'      // Imperative/must execute
-    | '?'      // Uncertain/maybe
+    : DOT      // Neutral/declarative
+    | EXCLAIM  // Imperative/must execute
+    | QUESTION // Uncertain/maybe
     ;

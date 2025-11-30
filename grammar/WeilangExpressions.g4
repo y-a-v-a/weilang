@@ -7,80 +7,80 @@ parser grammar WeilangExpressions;
 expression
     : literal                                                      // Primary
     | IDENTIFIER                                                   // Primary
-    | '(' expression ')'                                           // Parenthesized
+    | LPAREN expression RPAREN                                     // Parenthesized
     | quantifier expression                                        // Prefix quantifier
-    | 'THE LACK OF' expression                                     // Prefix negation
-    | 'WHAT REMAINS AFTER' expression operator expression          // Ternary operation
-    | 'A' NUMBER 'x' NUMBER 'REMOVAL FROM' expression              // Dimensional operation (prefix)
+    | THE_LACK_OF expression                                       // Prefix negation
+    | WHAT_REMAINS_AFTER expression operator expression            // Ternary operation
+    | A NUMBER TIMES NUMBER REMOVAL_FROM expression                // Dimensional operation (prefix)
     | expression operator expression                               // Binary operators
     // Spatial/material operations (Weiner's physical dimension)
-    | expression 'PLACED UPON' expression                          // Layering
-    | expression 'IN DIRECT LINE WITH' expression                  // Alignment
-    | expression 'ADJACENT TO' expression                          // Proximity
-    | expression 'REMOVED TO THE LATHING OF' expression            // Depth/extraction
-    | expression 'ON TOP OF' expression                            // Above/over
-    | expression 'BENEATH' expression                              // Below/under
-    | expression 'ABOVE' expression                                // Higher than
-    | expression 'AROUND' expression                               // Surrounding
-    | expression 'RIGHT IN THE MIDDLE OF' expression               // Centered within
-    | expression 'AT THE LEVEL OF' expression                      // At same height/plane
-    | expression 'WITHIN A REALM OF' expression                    // Contained conceptually
-    | expression 'TWIXT' expression                                // Between (archaic)
+    | expression PLACED_UPON expression                            // Layering
+    | expression IN_DIRECT_LINE_WITH expression                    // Alignment
+    | expression ADJACENT_TO expression                            // Proximity
+    | expression REMOVED_TO_THE_LATHING_OF_EXPR expression         // Depth/extraction
+    | expression ON_TOP_OF expression                              // Above/over
+    | expression BENEATH expression                                // Below/under
+    | expression ABOVE expression                                  // Higher than
+    | expression AROUND expression                                 // Surrounding
+    | expression RIGHT_IN_THE_MIDDLE_OF expression                 // Centered within
+    | expression AT_THE_LEVEL_OF expression                        // At same height/plane
+    | expression WITHIN_A_REALM_OF expression                      // Contained conceptually
+    | expression TWIXT expression                                  // Between (archaic)
     // Gestural/prepositional operators
-    | expression 'THROWN FROM' expression 'TO' expression          // Range operation (ternary)
-    | expression 'SCATTERED ACROSS' expression                     // Map/distribute
-    | expression 'GATHERED INTO' expression                        // Reduce/collect
-    | expression 'PRESSED AGAINST' expression                      // Concatenate
-    | expression 'BROKEN AWAY FROM' expression                     // Subtract/split
-    | expression 'CRUSHED BETWEEN' expression                      // Constrain/clamp
-    | expression 'TOSSED FROM ONE TO ANOTHER'                      // Transfer/move (postfix)
-    | expression 'STREWN ACROSS' expression                        // Distributed randomly
-    | expression 'DISPERSED ACROSS' expression                     // Spread out
-    | expression 'SUSPENDED FROM' expression                       // Hanging/deferred
-    | expression 'BOLTED TO' expression                            // Fixed attachment
-    | expression 'WELDED TO' expression                            // Fused permanently
-    | expression 'FOLDED INTO' expression                          // Nested/incorporated
-    | expression 'WRAPPED AROUND' expression                       // Enclosed/surrounded
-    | expression 'KEPT APART FROM' expression                      // Separated/isolated
-    | expression 'LEFT AS IS'                                      // Unchanged/identity (postfix)
-    | expression 'SPLIT FROM' expression                           // Divided/separated
-    | expression 'RENT FROM' expression                            // Torn from
-    | expression 'SEVERED FROM' expression                         // Cut from
-    | expression 'STACKED UPON' expression                         // Piled on
-    | expression 'LAID UPON' expression                            // Placed flat on
-    | expression 'KNEADED WITH' expression                         // Mixed/combined
-    | expression 'FLOATED UPON' expression                         // Resting on surface
+    | expression THROWN_FROM expression TO expression              // Range operation (ternary)
+    | expression SCATTERED_ACROSS expression                       // Map/distribute
+    | expression GATHERED_INTO expression                          // Reduce/collect
+    | expression PRESSED_AGAINST expression                        // Concatenate
+    | expression BROKEN_AWAY_FROM expression                       // Subtract/split
+    | expression CRUSHED_BETWEEN expression                        // Constrain/clamp
+    | expression TOSSED_FROM_ONE_TO_ANOTHER                        // Transfer/move (postfix)
+    | expression STREWN_ACROSS expression                          // Distributed randomly
+    | expression DISPERSED_ACROSS expression                       // Spread out
+    | expression SUSPENDED_FROM expression                         // Hanging/deferred
+    | expression BOLTED_TO expression                              // Fixed attachment
+    | expression WELDED_TO expression                              // Fused permanently
+    | expression FOLDED_INTO expression                            // Nested/incorporated
+    | expression WRAPPED_AROUND expression                         // Enclosed/surrounded
+    | expression KEPT_APART_FROM expression                        // Separated/isolated
+    | expression LEFT_AS_IS                                        // Unchanged/identity (postfix)
+    | expression SPLIT_FROM expression                             // Divided/separated
+    | expression RENT_FROM expression                              // Torn from
+    | expression SEVERED_FROM expression                           // Cut from
+    | expression STACKED_UPON expression                           // Piled on
+    | expression LAID_UPON expression                              // Placed flat on
+    | expression KNEADED_WITH expression                           // Mixed/combined
+    | expression FLOATED_UPON expression                           // Resting on surface
     ;
 
 // Quantification (Weiner's vague measurements)
 quantifier
-    : 'ENOUGH'
-    | 'NOT ENOUGH'
-    | 'TOO MUCH'
-    | 'A BIT OF'
-    | 'A LITTLE BIT MORE'
-    | 'MORE OR LESS'
-    | 'GIVE OR TAKE'
-    | 'SUFFICIENT'
-    | 'MANY'
-    | 'SOME'
+    : ENOUGH
+    | NOT_ENOUGH
+    | TOO_MUCH
+    | A_BIT_OF
+    | A_LITTLE_BIT_MORE
+    | MORE_OR_LESS
+    | GIVE_OR_TAKE
+    | SUFFICIENT
+    | MANY
+    | SOME
     ;
 
 operator
-    : 'PUT TOGETHER'                                       // +
-    | 'REMOVED FROM'                                       // -
-    | 'OVER AND OVER'                                      // * (context-sensitive!)
-    | 'SMASHED TO PIECES'                                  // /
-    | 'TO BE DIMINISHED BY'                                // <
-    | 'TO EXCEED'                                          // >
-    | 'AS IS'                                              // ==
-    | 'OTHER THAN'                                         // !=
-    | 'WITH & WITH'                                        // AND
-    | 'WITH OR WITHOUT'                                    // OR
-    | 'WITHOUT'                                            // NOT
-    | 'PUT TOGETHER TO PRESENT A SEMBLANCE OF A WHOLE'     // String concat
-    | 'AND/OR'                                             // Ambiguous conjunction (XOR or inclusive OR)
-    | '&'                                                  // Ampersand conjunction
-    | 'TWIXT'                                              // Between (can be operator too)
-    | '±'                                                  // Plus-minus (uncertainty/approximation)
+    : PUT_TOGETHER                                       // +
+    | REMOVAL_FROM                                       // -
+    | OVER_AND_OVER                                      // * (context-sensitive!)
+    | SMASHED_TO_PIECES                                  // /
+    | TO_BE_DIMINISHED_BY                                // <
+    | TO_EXCEED                                          // >
+    | AS_IS                                              // ==
+    | OTHER_THAN                                         // !=
+    | WITH_AND_WITH                                      // AND
+    | WITH_OR_WITHOUT                                    // OR
+    | WITHOUT                                            // NOT
+    | PUT_TOGETHER_TO_PRESENT_A_SEMBLANCE_OF_A_WHOLE     // String concat
+    | AND_OR                                             // Ambiguous conjunction (XOR or inclusive OR)
+    | AMPERSAND                                          // Ampersand conjunction
+    | TWIXT                                              // Between (can be operator too)
+    | PLUSMINUS                                          // Plus-minus (uncertainty/approximation)
     ;

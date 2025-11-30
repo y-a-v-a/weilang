@@ -6,28 +6,28 @@ parser grammar WeilangMaterial;
 
 // Variables have physical properties
 materialQuality
-    : 'OF STONE'          // Immutable
-    | 'OF WATER'          // Volatile/ephemeral
-    | 'OF STEEL'          // Strong-typed/rigid
-    | 'OF GLASS'          // Transparent/debuggable
-    | 'OF ASH'            // Write-once
-    | 'OF PAPER'          // Mutable/fragile
-    | 'OF SALT'           // Preservative/essential
-    | 'OF LIMESTONE'      // Sedimentary/accumulated
-    | 'OF SANDSTONE'      // Grainy/textured
-    | 'OF WOOD'           // Natural/organic
-    | 'OF IRON'           // Strong but oxidizable
-    | 'OF GOLD'           // Precious/valuable
-    | 'POLISHED'          // Optimized
-    | 'WEATHERED'         // Decays over time
-    | 'SCATTERED'         // Distributed/parallel
-    | 'COMPRESSED'        // Memory-optimized
+    : OF_STONE          // Immutable
+    | OF_WATER          // Volatile/ephemeral
+    | OF_STEEL          // Strong-typed/rigid
+    | OF_GLASS          // Transparent/debuggable
+    | OF_ASH            // Write-once
+    | OF_PAPER          // Mutable/fragile
+    | OF_SALT           // Preservative/essential
+    | OF_LIMESTONE      // Sedimentary/accumulated
+    | OF_SANDSTONE      // Grainy/textured
+    | OF_WOOD           // Natural/organic
+    | OF_IRON           // Strong but oxidizable
+    | OF_GOLD           // Precious/valuable
+    | POLISHED          // Optimized
+    | WEATHERED         // Decays over time
+    | SCATTERED         // Distributed/parallel
+    | COMPRESSED        // Memory-optimized
     ;
 
 // Weiner worked with removal and absence
 removal
-    : 'REMOVE' IDENTIFIER 'FROM THAT WHICH IS'
-    | 'UN-PLACED AS' expression
-    | 'ABSENCE OF' IDENTIFIER 'NOTED'
-    | 'THE REMOVAL TO THE LATHING OF' IDENTIFIER
+    : REMOVE IDENTIFIER FROM_THAT_WHICH_IS
+    | UN_PLACED_AS expression
+    | ABSENCE_OF IDENTIFIER NOTED
+    | THE_REMOVAL_TO_THE_LATHING_OF IDENTIFIER
     ;
